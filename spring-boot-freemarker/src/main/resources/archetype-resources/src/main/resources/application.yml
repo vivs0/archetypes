@@ -1,0 +1,22 @@
+server:
+  tomcat:
+    max-threads: 800
+  port: 8080
+  error:
+    whitelabel:
+      enabled: false
+spring:
+  profiles:
+    active: dev
+  main:
+    banner-mode: console
+  application:
+    name: application-name
+  freemarker:
+    template-loader-path: classpath:/templates
+    suffix: .ftl
+    settings:
+      template_exception_handler: rethrow
+---
+spring:
+  profiles: dev
