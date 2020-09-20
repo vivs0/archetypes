@@ -11,5 +11,11 @@
         <fileSet>
             <directory>src/test/java</directory>
         </fileSet>
+        <fileSet>
+            <directory>src/main/resources</directory>
+        </fileSet>
+        <fileSet>
+            <directory>src/test/resources</directory>
+        </fileSet>
     </fileSets>
 </archetype-descriptor>
